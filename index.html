@@ -1,111 +1,129 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Okumura Takahiro</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <div class="container">
+  <body class="bg-gray-100 text-gray-900">
+    <div class="container mx-auto px-4 py-6">
 
-      <h1>Okumura Takahiro</h1>
-      <div class="row">
-        <div class="column column-90">
-          <p>I'm a software engineer since 2013. Registered Information Security Specialist (No. <a href="https://riss.ipa.go.jp/r?r=013322">013322</a>).</p>
+      <header class="flex items-center gap-4 border-b pb-4">
+        <img src="https://s.gravatar.com/avatar/47e8318347fb8cd6a2c39bc6cf6e333e?s=80" alt="Okumura Takahiro's portrait" class="rounded-full w-20 h-20">
+        <div>
+          <h1 class="text-3xl font-bold">Okumura Takahiro</h1>
+          <p class="text-gray-600">Software Engineer since 2013.</p>
         </div>
-        <div class="column">
-          <img src="https://s.gravatar.com/avatar/47e8318347fb8cd6a2c39bc6cf6e333e?s=80" alt="portrait photo">
+      </header>
+
+      <section class="mt-6">
+        <h2 class="text-2xl font-semibold">SNS / Blog</h2>
+        <div class="grid grid-cols-2 gap-4 mt-2">
+          <ul class="list-disc pl-5">
+            <li>Twitter: <a href="https://twitter.com/hfm" class="text-blue-500">@hfm</a></li>
+            <li>GitHub: <a href="https://github.com/hfm" class="text-blue-500">@hfm</a></li>
+            <li>SpeakerDeck: <a href="https://speakerdeck.com/hfm" class="text-blue-500">@hfm</a></li>
+            <li>SlideShare: <a href="https://www.slideshare.net/hifumis" class="text-blue-500">@hifumis</a></li>
+          </ul>
+          <ul class="list-disc pl-5">
+            <li>Blog: <a href="http://blog.hifumi.info/" class="text-blue-500">blog: takahiro okumura</a></li>
+            <li>Medium: <a href="https://medium.com/@hfm" class="text-blue-500">@hfm</a></li>
+            <li>Instagram: <a href="https://instagram.com/hfm" class="text-blue-500">@hfm</a></li>
+            <li>Booklog: <a href="https://booklog.jp/users/hfmgarden" class="text-blue-500">hfmgarden</a></li>
+          </ul>
         </div>
-      </div>
+      </section>
 
-      <h2>SNS / Blog</h2>
-      <div class="row">
-        <div class="column">
-        <ul>
-          <li>Twitter: <a href="https://twitter.com/hfm">@hfm</a></li>
-          <li>GitHub: <a href="https://github.com/hfm">@hfm</a></li>
-          <li>SpeakerDeck: <a href="https://speakerdeck.com/hfm">@hfm</a></li>
-          <li>SlideShare: <a href="https://www.slideshare.net/hifumis">@hifumis</a></li>
-        </ul>
-        </div>
-        <div class="column">
-        <ul>
-          <li>Blog: <a href="http://blog.hifumi.info/">blog: takahiro okumura</a></li>
-          <li>Medium: <a href="https://medium.com/@hfm">@hfm</a></li>
-          <li>Instagram: <a href="https://instagram.com/hfm">@hfm</a></li>
-          <li>Booklog: <a href="https://booklog.jp/users/hfmgarden">hfmgarden</a></li>
-        </ul>
-        </div>
-      </div>
+      <section class="mt-6">
+        <h2 class="text-2xl font-semibold">Career</h2>
+        <article class="mt-2">
+          <h3 class="text-lg font-semibold">
+            2013 April - 2018 Dec: <a href="https://pepabo.com" class="text-blue-500">GMO Pepabo, Inc.</a>
+          </h3>
+          <p class="mt-1">
+          GMO Pepabo (formerly known as paperboy&co., Inc.) is a web service company.
+          I primarily work on <a href="https://heteml.jp" class="text-blue-500">Heteml</a>, <a href="https://30d.jp" class="text-blue-500">30days Album</a>, <a href="https://goope.jp" class="text-blue-500">Goope</a>, Petit, and <a href="https://shop-pro.jp/" class="text-blue-500">ColorMeShop</a>.
+          </p>
 
-      <h2>Career</h2>
-      <div>
-        <h3>2013 April - present: <a href="https://pepabo.com">GMO Pepabo, Inc.</a></h3>
-        <p>GMO Pepabo (formerly known as paperboy&co., Inc.) is a web service company. I primarily works <a href ="https://heteml.jp">Heteml</a> of web hosting service, <a href="https://30d.jp">30days Album</a> of sharing photo service, <a href="https://goope.jp">Goope</a> of website builder, <a href="https://petit.cc">Petit</a> of blog service, and <a href="https://shop-pro.jp/">ColorMeShop</a>.</p>
-        <p>Since 2013 Apr, Infrastructure (Web operation) engineer at Heteml group. Since 2015 Jan, Infrastructure engineer at Infrastructure group. Since 2016 Jan, Senior engineer at Infrastructure group. Since 2018 May, Senior engineer at Platform group.</p>
-      </div>
+          <p class="mt-1">
+          Since 2013 Apr, Infrastructure (Web operation) engineer at Heteml group. Since 2015 Jan, Infrastructure engineer at Infrastructure group. Since 2016 Jan, Senior engineer at Infrastructure group. Since 2018 May, Senior engineer at Platform group.
+          </p>
+        </article>
 
-      <h2>Talks</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Title</th>
-            <th>Event</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><a href="https://builderscon.io/tokyo/2018/session/87e13506-2f80-4fae-af9c-2421c7dbb460">あなたの知らないデータベースのロギングの世界</a></td>
-            <td><a href="https://builderscon.io/tokyo/2018/">builderscon tokyo 2018</a></td>
-          </tr>
-          <tr>
-            <td><a href="https://speakerdeck.com/hfm/dynamic-certificate-internals-with-ngx-mruby-number-nagoyark03">Dynamic certificate internals with ngx_mruby</a></td>
-            <td><a href="https://regional.rubykaigi.org/nagoya03/">名古屋Ruby会議03</a></td>
-          </tr>
-          <tr>
-            <td><a href="https://speakerdeck.com/hfm/gmo-hoscon-2016">動的証明書読み込み ngx_mruby編</a></td>
-            <td><a href="">GMO Hosting Conference @渋谷</a></td>
-          </tr>
-          <tr>
-            <td><a href="https://www.slideshare.net/hifumis/20150220-wakateinfraengineergenjohkakuninkai">若手インフラエンジニア現状確認会</a></td>
-            <td>Private study group (#wakateinfra)</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.slideshare.net/hifumis/20151206shiteitoudan2015">師弟登壇2015 「いるだけで成長できる環境」としての研修の場づくり</a></td>
-            <td><a href="https://pepabo.connpass.com/event/22180/">師弟登壇2015</a></td>
-          </tr>
-          <tr>
-            <td><a href="https://www.slideshare.net/hifumis/20150128-monitoringcasual7hfm">30days Albumの裏側〜監視・インフラCI事情〜</a></td>
-            <td>Monitoring Casual #7</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.slideshare.net/hifumis/mysql-casual-42634961">MySQL 4.0で9年動き続けたサーバを リプレイスしてバージョンアップした話</a></td>
-            <td><a href="https://mysql-casual.connpass.com/event/9767/">MySQL Casual Talks vol.7</a></td>
-          </tr>
-        </tbody>
-      </table>
+        <article class="mt-2">
+          <h3 class="text-lg font-semibold">
+            2019 Jan - present: <a href="https://pepabo.com" class="text-blue-500">Cookpad Inc.</a>
+          </h3>
+        </article>
+      </section>
 
-      <h2>Events</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Title</th>
-            <th>Role</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><a href="https://pepabo.connpass.com/event/22180/">師弟登壇2015</a></td>
-            <td>Organizer</td>
-          </tr>
-          <tr>
-            <td>若手インフラエンジニア現状確認会 (Private study group)</a></td>
-            <td>Organizer</td>
-          </tr>
-        </tbody>
-      </table>
+      <section class="mt-6">
+        <h2 class="text-2xl font-semibold">Talks</h2>
+        <table class="w-full mt-2 border-collapse border border-gray-300">
+          <thead>
+            <tr class="bg-gray-200">
+              <th class="border border-gray-300 px-4 py-2">Title</th>
+              <th class="border border-gray-300 px-4 py-2">Event</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2"><a href="https://speakerdeck.com/hfm/slo" class="text-blue-500">SLI/SLO</a></td>
+              <td class="border border-gray-300 px-4 py-2"><a href="https://cookpad.connpass.com/event/215427/" class="text-blue-500">Cookpad Lounge #4 クックパッド SRE座談会</a></td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2"><a href="https://builderscon.io/tokyo/2018/session/87e13506-2f80-4fae-af9c-2421c7dbb460" class="text-blue-500">あなたの知らないデータベースのロギングの世界</a></td>
+              <td class="border border-gray-300 px-4 py-2"><a href="https://builderscon.io/tokyo/2018/" class="text-blue-500">builderscon tokyo 2018</a></td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2"><a href="https://speakerdeck.com/hfm/dynamic-certificate-internals-with-ngx-mruby-number-nagoyark03" class="text-blue-500">Dynamic certificate internals with ngx_mruby</a></td>
+              <td class="border border-gray-300 px-4 py-2"><a href="https://regional.rubykaigi.org/nagoya03/" class="text-blue-500">名古屋Ruby会議03</a></td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2"><a href="https://speakerdeck.com/hfm/gmo-hoscon-2016" class="text-blue-500">動的証明書読み込み ngx_mruby編</a></td>
+              <td class="border border-gray-300 px-4 py-2">GMO Hosting Conference @渋谷</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2"><a href="https://www.slideshare.net/hifumis/20150220-wakateinfraengineergenjohkakuninkai" class="text-blue-500">若手インフラエンジニア現状確認会</a></td>
+              <td class="border border-gray-300 px-4 py-2">Private study group (#wakateinfra)</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2"><a href="https://www.slideshare.net/hifumis/20151206shiteitoudan2015" class="text-blue-500">師弟登壇2015 「いるだけで成長できる環境」としての研修の場づくり</a></td>
+              <td class="border border-gray-300 px-4 py-2"><a href="https://pepabo.connpass.com/event/22180/" class="text-blue-500">師弟登壇2015</a></td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2"><a href="https://www.slideshare.net/hifumis/20150128-monitoringcasual7hfm" class="text-blue-500">30days Albumの裏側〜監視・インフラCI事情〜</a></td>
+              <td class="border border-gray-300 px-4 py-2">Monitoring Casual #7</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2"><a href="https://www.slideshare.net/hifumis/mysql-casual-42634961" class="text-blue-500">MySQL 4.0で9年動き続けたサーバを リプレイスしてバージョンアップした話</a></td>
+              <td class="border border-gray-300 px-4 py-2"><a href="https://mysql-casual.connpass.com/event/9767/" class="text-blue-500">MySQL Casual Talks vol.7</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="mt-6">
+        <h2 class="text-2xl font-semibold">Events</h2>
+        <table class="w-full mt-2 border-collapse border border-gray-300">
+          <thead>
+            <tr class="bg-gray-200">
+              <th class="border border-gray-300 px-4 py-2">Title</th>
+              <th class="border border-gray-300 px-4 py-2">Role</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2"><a href="https://pepabo.connpass.com/event/22180/" class="text-blue-500">師弟登壇2015</a></td>
+              <td class="border border-gray-300 px-4 py-2">Organizer</td>
+            </tr>
+              <td class="border border-gray-300 px-4 py-2">若手インフラエンジニア現状確認会 (Private study group)</td>
+              <td class="border border-gray-300 px-4 py-2">Organizer</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
 
     </div>
   </body>
