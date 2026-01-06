@@ -11,6 +11,9 @@ tmp/
 # Crash Log
 crash.log
 
+# Node.js
+node_modules/
+
 
 ### https://raw.github.com/github/gitignore/master/Global/osx.gitignore
 
